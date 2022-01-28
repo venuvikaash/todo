@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const OutputTodo = ({data}) => {
+const OutputTodo = ({ data }) => {
   return (
     <Fragment>
       <table className="w-50 m-auto">
@@ -11,8 +11,12 @@ const OutputTodo = ({data}) => {
         </thead>
         <tbody>
           <td>{data}</td>
-          <td><button className="btn btn-warning">Edit</button></td>
-          <td><button className="btn btn-danger">Delete</button></td>
+          <td>
+            <button className="btn btn-warning">Edit</button>
+          </td>
+          <td>
+            <button className="btn btn-danger">Delete</button>
+          </td>
         </tbody>
       </table>
     </Fragment>
